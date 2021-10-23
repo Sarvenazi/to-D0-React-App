@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  background-color: #6096fa7a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.box {
+  border: 1px solid rgba(168, 168, 168, 0.5);
+  height: 25rem;
+  width: 30rem;
+  background-color: rgba(245, 245, 245, 0.918);
+  border-radius: 1rem;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeData {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.addNote {
+  height: 1.5rem;
+  width: 3rem;
+  margin-left: 3rem;
+}
+
+.inputData {
+  border-radius: 0.2rem;
+  border: 1px solid gray;
+  width: 9.1rem;
+  height: 1.5rem;
+  margin: 20px;
+}
+
+.timePicker {
+  margin-right: 5rem;
+}
+
+p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 1px;
+}
+
+.Notes {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: 18.5rem;
+  width: 27.5rem;
+  /* background-color: #6096fa2c; */
+  overflow: auto;
+  border: 1px solid gray;
+}
+
+.emptyInput {
+  background-color: rgba(252, 79, 79, 0.555);
+}

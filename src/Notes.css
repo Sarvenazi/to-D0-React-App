@@ -1,0 +1,22 @@
+.oneNote {
+  /* background-color: rgba(217, 188, 245, 0.966); */
+  display: flex;
+  padding: 0.5rem;
+  color: black;
+  border: 1px solid black;
+  margin: 5px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.inp {
+  width: 50%;
+  overflow: auto;
+  text-align: center;
+  margin: 0%;
+}
+
+.remove {
+  padding: 8px;
+}
